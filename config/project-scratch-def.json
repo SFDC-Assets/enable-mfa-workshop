@@ -2,6 +2,7 @@
   "orgName": "workshops",
   "edition": "Developer",
   "description": "Integration Workshops",
+  "features": ["enableSetPasswordInApi"],
   "settings": {
     "chatterSettings": {
       "enableChatter": true
@@ -17,7 +18,6 @@
     },
     "securitySettings": {
       "passwordPolicies": {
-        "enableSetPasswordInApi": true,
         "complexity": "NoRestriction"
       }
     }
